@@ -1,0 +1,110 @@
+/* ESTRUTURA DO SITE */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(../imagens/fundo.png) repeat-x top;
+}
+
+#container {
+	width: 750px;
+	margin: 0 auto;
+}
+
+#topo {
+	height: 150px;
+	padding: 25px;
+	background: url(../imagens/detalhe-topo.png) no-repeat top right;
+	
+}
+
+.logo {
+	width: 152px;
+	height: 66px;
+	background: url(../imagens/logo.png) no-repeat  center; 
+	/*nao é a melhor alternativa pois leitores de tela 
+	nao terao acesso a imagense o google n vai encontrar o seu site*/
+	text-indent: -3000px;
+	/*ele meio que vai esconder o texto do h1 <noticiascidade>
+	mas vai permitir q os leitores leem o q seria escrito na imagem
+	que vc colocou */
+}
+
+/* Barra de navegacoa*/
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul {
+	margin-top: 30px;
+	background: #b10333;
+	float: left;
+}
+
+#topo ul li {
+	float: left;
+
+}
+
+#topo li a { 
+	/*float: left; /*para fins de teste*/
+	font-size: 0.9em;
+	display: block; /*ele colocou do tipo block*/
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none; 
+	color: #fff;
+	background: url(../imagens/divisor.png) no-repeat left center; 
+	/*bug da vez: vc colocou dibizor e nao divisor e vc tbm nao fechou o <a> em econonimia no index.html */
+}
+
+#topo ul .primeiro a { /*o background ta dentro de li a por isso .primeiro a*/
+	background: none;
+} 
+
+#topo ul a:hover {
+	color: #96001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos
+ {
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
