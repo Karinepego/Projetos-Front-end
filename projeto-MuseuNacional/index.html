@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Museu Nacional</title>
+	<meta charset="utf-8">
+
+	<!-- Normalize css -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<!-- Estilo customizado -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<!--[if lt IE 9]>
+		<script src="html5shiv.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<div id="container"> <!--inicio do container-->
+		
+		<header>
+			<div id="logo"><!--inicio logo-->
+				<h1><a href="">Museu Nacional</a></h1>
+			</div><!--Fechamento logo-->
+
+				<nav><!--inicio nav-->
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Exposições</a></li>
+						<li><a href="">Pesquisa</a></li>
+						<li><a href="">Acervos</a></li>
+						<li><a href="">videos</a></li>
+						<li><a href="">fotos</a></li>
+						<li><a href="">contato</a></li>
+						<!-- <li><a href="#">Home</a></li> ele escreveu assim  -->
+					</ul>
+				</nav><!--fechamento nav-->
+		</header>
+
+		<div id="principal" style="border: 1px solid red;"><!--inicio de principal-->
+
+			<div id="conteudo"><!--inicio conteudo-->
+				<section id="capa">
+				<img src="imagens/museu.png">
+				</section>
+
+				<section id="postagens">
+
+					<article id="video">
+						<h3>Conheça o museu </h3>
+						<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</article>
+
+					<article id="mapa">
+						<h3>Mapa: Encontre o museu</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.171351339261!2d-43.22850583540046!3d-22.90704984363857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sNational%20Museum%20of%20Brazil!5e0!3m2!1sen!2sbr!4v1590784253188!5m2!1sen!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</article>
+
+					<article id="exposicoes">
+						<h3>Exposições</h3>
+						<ul>
+							<li><a href="#">Os assustadores insetos</a></li>
+							<li><a href="#">O cranio de Luzia</li>
+							<li><a href="#">Preguiça gogante e tigre-dentes-de-sabre</a></li>
+							<li><a href="#">Plantas do Brasil</a></li>
+							<li><a href="#">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+							<li><a href="#">Arte Com Dinossauros- Paleoarte</a></li>
+							<li><a href="#"> </a></li>
+							<li><a href="#"><strong>Veja todos (65)</strong></a></li>
+						</ul>
+					</article>
+
+					<article id="historia">
+						<h3>200 anos de historia</h3>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+						</p>
+						<a href=""><strong>Leia mais</strong></a>
+					</article>
+
+				</section>
+
+				
+			</div><!--fechamento conteudo-->
+
+			<aside>
+				<section id="depoimento">
+					<img src="imagens/depoimento.png">
+				</section>
+
+				<section id="visita"><!--inicio seção visita-->
+					<h4>Faça uma visita</h4>
+					<form>
+						<fieldset>
+							<legend>Seleciona uma data </legend>
+
+							<label for="data">Data</label>
+							<input class="campo" type="text" id="data" value="dd/mm/aaaa">
+							
+							<label for="qtd">Quantidade pessoas</label>
+							<input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+
+						</fieldset>
+
+						<input class="botao" type="submit" value="Verificar disponibilidade">
+
+					</form>
+				</section><!--fechamento seçao visita -->
+
+
+				<section id="galeria">
+				<h4> galeria de fotos</h4>
+
+				<a href="">
+					<img src="imagens/imagem1.jpg" height="93px" width="93px" alt="descrição">
+				</a>
+				<a href="">
+					<img src="imagens/imagem2.jpg" height="93px" width="93px" alt="descrição">
+				</a>
+				<a href="">
+					<img src="imagens/imagem3.jpg" height="93px" width="93px" alt="vestido antigo ">
+				</a>
+				<a href="">
+					<img src="imagens/imagem4.jpg" height="93px" width="93px" alt="descrição">
+				</a>
+				</section>
+
+			</aside><!--fim de aside-->
+
+			<!-- <div style="clear: both"></div> seria uma otima alternativa para limpesa de fluxo flutuante tbm! -->
+
+			<footer style="clear: both;">
+				conteudo 
+			</footer>
+		</div><!--fechamento de principal-->
+
+
+
+	</div><!--Fim do container-->
+</body>
+</html>
