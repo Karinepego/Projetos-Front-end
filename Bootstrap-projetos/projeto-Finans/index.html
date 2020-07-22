@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- Font awessome -_- -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> -->
 
     <title>Finans - Finanças pessoais</title>
   </head>
@@ -19,12 +20,19 @@
 <header> <!--inicio de menu-->
   <nav class="navbar navbar-expand-sm navbar-light bg-warning">
     <div class="container"><!--inicio de div container-->
+
       <!-- logo -->
       <a href="" class="navbar-brand" >
         <img src="img/logo.png" width="142px"></a>
       </a>
+
+      <!-- Menu Hamburguer -->
+      <botton class="navbar-toggler" data-toggle="collapse" data-targuet="#etiqueta1">
+          <span class="navbar-toggler-icon"></span>
+
+      </botton>
        <!-- navegação -->
-       <div class="collapse navbar-collapse"><!-- inicio de colapse -->
+       <div class="collapse navbar-collapse" id="#etiqueta1"><!-- inicio de colapse -->
        <ul class="navbar-nav ml-auto ">
           <li class="nav-item">
             <a href="" class="nav-link">Home</a>
@@ -46,6 +54,65 @@
      </div><!-- fim de div container -->
   </nav>   
 </header><!-- fim de menu -->
+
+<!-- nossa passei longe porém perto -->
+<!-- <nav>
+  <div class="bg-warning jumbotron">
+    <div class="container">
+
+      <div class="media mr-3 align-self-center">
+          <img src="img/capa-mulher.png">
+      </div>
+      <div class="media-body">
+          <h1 class="display-4">Suas contas, descomplicadas</h1>
+          <p>Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira</p>
+      </div>  
+      <div class="form-inline">
+        <input class="form-control me-5" type="text" placeholder="Digite aqui o seu E-mail">
+        <input class="btn btn-primary" type="submit" value="logar">
+      </div>
+      <div>
+        disponivel para 
+            <button class="btn btn-warning ">
+                <i class="fas fa-apple "></i>
+            </button>
+      </div>
+    </div>
+  </div>
+</nav> -->
+
+<nav class="bg-warning">
+  <section id="home"><!-- inicio da seção home-->
+    <div class="container">
+      <div class="row bg-warning">
+
+        <div class="align-self-center">
+          <div class="col-md-6 d-flex"><!--seção de textos-->
+            <h1 class="display-4 ">Suas contas, descomplicadas</h1>
+            <p>Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira</p>
+
+            <form class="mt-4">
+                <div class="input-group" style="border: 1px solid red">
+                <input class="form-control" type="text" placeholder="Digite aqui o seu E-mail">
+                  <div class="input-group-append">
+                  <button class="btn btn-primary" type="button" value="logar">
+                    Cadastre-se
+                  </button> 
+                  </div>
+                </div>
+            </form>
+          </div> <!-- fim da seção de textos -->
+        </div>
+
+        <div class="col-md-6 ">
+            <img src="img/capa-mulher.png">
+        </div>
+
+      </div> 
+    </div>
+  </section> <!--fechamento seção home-->
+</nav>
+
   
 
 
