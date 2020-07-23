@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- Font awessome -_- -->
-    <link rel="stylesheet" href="fontawesome/css/all.css">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="fontawesome/css/all.css"> *caso vc queira entregar a localização dos arquivos no seu computador.. eu baixei mas prefiro usar o online por questóes esducacionais :3 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
     <title>Finans - Finanças pessoais</title>
   </head>
@@ -55,7 +58,13 @@
   </nav>   
 </header><!-- fim de menu -->
 
-<!-- nossa passei longe porém perto -->
+
+
+
+
+
+
+<!-- nossa passei longe porém perto kk -->
 <!-- <nav>
   <div class="bg-warning jumbotron">
     <div class="container">
@@ -75,24 +84,30 @@
         disponivel para 
             <button class="btn btn-warning ">
                 <i class="fas fa-apple "></i>
+
+                karine não é fas é fab! vc tem q ver isso la no site da fontawessome! e vc tbm n precisa usar  <butoon> apenas colocar btn na classe e colcar disponivel em dentro de um <p>
             </button>
       </div>
     </div>
   </div>
 </nav> -->
 
-<nav class="bg-warning">
+
+
+
+<nav>
   <section id="home"><!-- inicio da seção home-->
     <div class="container">
-      <div class="row bg-warning">
+      <div class="row"><!-- inicio da row-->
 
-        <div class="align-self-center">
+        
           <div class="col-md-6 d-flex"><!--seção de textos-->
+            <div class="align-self-center">
             <h1 class="display-4 ">Suas contas, descomplicadas</h1>
             <p>Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira</p>
 
-            <form class="mt-4">
-                <div class="input-group" style="border: 1px solid red">
+            <form class="mt-4 mb-4">
+                <div class="input-group">
                 <input class="form-control" type="text" placeholder="Digite aqui o seu E-mail">
                   <div class="input-group-append">
                   <button class="btn btn-primary" type="button" value="logar">
@@ -101,17 +116,114 @@
                   </div>
                 </div>
             </form>
+
+            <p>Disponivel para: 
+            <a href="#" class="btn btn-outline-light">
+                <i class="fab fa-apple fa-lg"></i>
+            </a>
+            <a href="#" class="btn btn-outline-light">
+                <i class="fab fa-android fa-lg"></i>
+            </a>
+            </p>
           </div> <!-- fim da seção de textos -->
         </div>
 
-        <div class="col-md-6 ">
+        <div class="col-md-6 d-none d-md-block">
             <img src="img/capa-mulher.png">
         </div>
 
-      </div> 
+      </div> <!-- fechamento da row-->
     </div>
   </section> <!--fechamento seção home-->
+
+
+  <section class="caixa"><!-- inicio seção saiba -->
+    <div class="container"> <!--inicio container-->
+      <div class="row"> <!--inicio row-->
+
+        <div class="col-md-6"><!-- inicio texto -->
+          <div class="align-self-center">
+            <h2>Saiba para onde vai o seu dinheiro</h2>
+            <p>
+              Com o Finans, você categoriza todos os seus lançamentos. Com gráficos simples, voce sabe de onde vem e para onde vai o seu dinheiro.
+            </p>
+            <a href="#" class="btn btn-primary">Veja mais</a>
+          </div>
+        </div><!--fim de texto-->
+
+        <div class="col-md-6"><!-- inicio imagem -->
+          <img src="img/saiba.png" class="img-fluid">
+        </div><!--fim imagem-->
+
+      </div> <!--Fechamento row-->
+    </div><!--Fechamento conatiner-->
+  </section><!--Fechamento seção saiba -->
+
+
+  <section class="caixa"><!-- inicio seção juros -->
+    <div class="container"> <!--inicio container-->
+      <div class="row"> <!--inicio row-->
+
+        <div class="col-md-6"><!-- inicio imagem -->
+          <img src="img/juros.png" class="img-fluid">
+        </div><!--fim imagem-->
+
+        <div class="col-md-6 d-flex"><!-- inicio texto -->
+          <div class="align-self-center">
+            <h2>Pare de pagar juros e taxas chatas, economize!</h2>
+            <p>
+              Manter as contas em dia é sempre um problema? O Finans avisa você: receba alertas de contas a pagar e a receber!
+            </p>
+            <a href="#" class="btn btn-primary">Veja mais</a>
+          </div>
+        </div><!--fim de texto-->
+
+      </div> <!--Fechamento row-->
+    </div><!--Fechamento conatiner-->
+  </section><!--Fechamento seção saiba -->
+
+
+
+  <section class="caixa"><!-- inicio seção recursos -->
+    <div class="container"> <!--inicio container-->
+      <div class="row"> <!--inicio row-->
+        <div class="col-md-4">
+          <img src="img/facil.png" class="img-fluid">
+          <h4>Fácil de usar</h4>
+          <p>
+          O finans vai além do basico e perimite que voce faça controles incríveis, essenciais para a suas finanças. Simples como tem que ser!
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="img/economize.png" class="img-fluid">
+          <h4>Economize seu tempo </h4>
+          <p>
+          Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo com que realmente importa pra você!
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="img/suporte.png" class="img-fluid">
+          <h4>Suporte amigo</h4>
+          <p>
+          Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente está aqui pra resolver seus problemas e deixar sua vida bem mais fácil!
+          </p>
+        </div>
+        
+      </div> <!--Fechamento row-->
+    </div><!--Fechamento conatiner-->
+  </section><!--Fechamento seção recursos-->
+
 </nav>
+
+<footer class="mt-4 mb-4">
+  <div class="container">
+    <div class="row">
+      
+    </div>
+  </div>
+</footer>
 
   
 
