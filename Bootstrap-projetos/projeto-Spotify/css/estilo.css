@@ -79,6 +79,11 @@ nav.navbar-transparente {
 	background-color: white;
 	color: black;
 }
+
+.carousel-control-next, .carousel-control-prev{
+	width: 5%;
+}
+
 /**** ESTRUTURA DE CONTEUDOS ****/
 .caixa {
 	padding-top: 20px;
@@ -166,11 +171,20 @@ footer .navbar-nav a:hover{
 	text-decoration: none;
 }
 
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 2px;
+}
 
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
 	.btn-custom{
 		margin: 10px 15px;
+		font-size: 1em;
 	}
 }
 

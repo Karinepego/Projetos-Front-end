@@ -70,15 +70,40 @@
    <section id="home" class="d-flex"><!-- inicio de capa -->
      <div class="container align-self-center"><!-- inicio de container -->
        <div class="row"><!-- incio de row -->
-         <div class="col-md-12">
+         <div class="col-md-12 capa">
 
-           <h1>Musica para todos</h1>
-           <a href="#" class="btn btn-lg btn-custom btn-roxo">
-             Aproveite o Spotify Free
-           </a>
-           <a href="#" class="btn btn-lg btn-custom btn-branco">
-             Obter o Spotify Premiun
-           </a>
+          <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" ><!-- inicio inner -->
+
+              <div class="carousel-item active">
+                  <h1>Musica para todos</h1>
+                  <a href="#" class="btn btn-lg btn-custom btn-roxo">
+                    Aproveite o Spotify Free
+                  </a>
+                  <a href="#" class="btn btn-lg btn-custom btn-branco">
+                    Obter o Spotify Premiun
+                  </a>
+              </div>
+
+                <div class="carousel-item ">
+                  <h1>As melhores rádios</h1>
+                  <a href="" class="btn btn-lg btn-custom btn-branco">
+                    <i class="fas fa-music"></i> Ouça agora
+                  </a>
+              </div>
+
+            </div><!-- Fim inner -->
+
+            <!-- controles --> 
+            <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
+              <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+
+            <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
+              <i class="fas fa-angle-right fa-3x"></i>
+            </a>
+
+          </div>
 
          </div>
        </div><!-- fechamento de row -->
@@ -149,10 +174,10 @@
         <div class="col-md-8">
           <div class="row rotacionar"> <!-- rotacionarmos toda a row -->
             <div class="col-md-6">
-              <img src="imagens/iphone1.png" class="img-fluid">
+              <img src="imagens/iphone1.png" class="img-fluid d-none d-md-block">
             </div>
             <div class="col-md-6">
-               <img src="imagens/iphone2.png"class="img-fluid">
+               <img src="imagens/iphone2.png"class="img-fluid d-none d-md-block">
             </div>
           </div> 
         </div>
@@ -191,7 +216,7 @@
             <li><a href="">Player da web</a></li>
           </ul>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-4">
       
           <ul>
             <li><a href="">
@@ -216,4 +241,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
-</html>
+</html> 
