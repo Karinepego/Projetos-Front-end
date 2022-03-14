@@ -11,8 +11,8 @@ html, body, #home {
 
  body {
  	background: url(../imagens/capa.png),
- 				url(../imagens/ruido.png),
- 				linear-gradient(50deg,#ff4169,#7c26f8);
+ 				url(../imagens/ruido.png), 
+ 				linear-gradient(50deg,#E50079,#9900CF);
  				/*todas trasparentes!señ vai sobrepor uma as outras */
  	background-attachment: fixed;
  	font-family: Helvetica, Arial, sans-serif;
